@@ -1,8 +1,8 @@
-# fastcampus k-digitial training 3rd backend
+# fastcampus megabyte schoole 
 
 - 패스트캠퍼스 BE1기 현장 수업 예제 업로드용
 - 다운로드 방법
-  - 인텔리제이: Project From VCS > https://github.com/EunBinChoi/fastcampus-kdt3.git
-  - git command: ```git clone https://github.com/EunBinChoi/fastcampus-kdt3.git```
+  - 인텔리제이: Project From VCS > https://github.com/EunBinChoi/fastcampus-be1.git
+  - git command: ```git clone https://github.com/EunBinChoi/fastcampus-be1.git```
  
 - CopyRight By EunbinChoi. For commercial use, please contact me. @qwertyuiop7823@gmail.com
