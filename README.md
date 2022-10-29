@@ -1,4 +1,4 @@
-# fastcampus megabyte schoole 
+# fastcampus megabyte school
 
 - 패스트캠퍼스 BE1기 현장 수업 예제 업로드용
 - 다운로드 방법
