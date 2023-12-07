@@ -2,17 +2,15 @@ package me.day03.casting;
 
 public class DataTypeCastingExample {
     public static void main(String[] args) {
-        // type casting (명시적인 형변환)
+
         char ch = 'A';      // 2 byte (0 ~ 2^16-1)
-        byte b = (byte) ch; // 1 byte (-128 ~ 127)
+        // 1 byte (-128 ~ 127)
 
         // promotion (자동 형변환)
-        byte byteValue = 10;
-        int intValue = byteValue; // int <- byte
+        int intValue = (byte) 10; // int <- byte
         System.out.println(intValue);
 
-        char charValue = '가';
-        intValue = charValue;    // int <- char
+        intValue = '가';    // int <- char
         System.out.println(intValue); // charValue의 유니코드
 
         intValue = 500;
@@ -27,7 +25,7 @@ public class DataTypeCastingExample {
 
         ////////////////////////////////////////////////
 
-        // 연산식에서 타입 변환
+
         byte byteValue1 = 10;
         byte byteValue2 = 20;
 //        byte byteValue3 = byteValue1 + byteValue2; // 컴파일 에러
